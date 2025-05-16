@@ -21,6 +21,7 @@
 
 ```bash
 pip install transmission-rpc
+```
 
 ## 🚀 使用说明
 
@@ -37,24 +38,29 @@ pip install transmission-rpc
 ```bash
 # 对非白名单Tracker的种子自动限速（上传10KB/s，下载不限速）
 python script.py 1
-
+```
 # 输出示例：
+``` bash
 发现匹配种子 ID: 42, hash: A1B2C3D4E5 已应用限速设置
 发现匹配种子 ID: 55, hash: F6G7H8I9J0 已应用限速设置
 操作完成，共限速 2 个种子
+```
 
 ### 配置更改
 在代码中更改以下配置适配自己环境
+``` python
 # Transmission RPC 配置
 RPC_HOST = '192.168.1.132'
 RPC_PORT = 9091
 RPC_USERNAME = 'admin'  # 如果没有认证，留空
 RPC_PASSWORD = 'admin'
-
+```
 # 限速配置
+``` python 
 DOWNLOAD_LIMIT = 0  # 单位：KB/s
 UPLOAD_LIMIT = 10  # 单位：KB/s
 TARGET_TRACKERS = [  # 目标Tracker白名单列表
     'm-team.cc', 'audiences.me', 'cinefiles.info'
     # 添加更多需要排除的Tracker...
 ]
+```
