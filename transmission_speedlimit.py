@@ -2,7 +2,7 @@ import transmission_rpc
 import sys
 
 # Transmission RPC 配置
-RPC_HOST = '192.168.1.132'
+RPC_HOST = '192.168.10.132'
 RPC_PORT = 9091
 RPC_USERNAME = 'admin'  # 如果没有认证，留空
 RPC_PASSWORD = 'admin'
@@ -11,7 +11,7 @@ RPC_PASSWORD = 'admin'
 DOWNLOAD_LIMIT = 0  # 单位：KB/s
 UPLOAD_LIMIT = 10  # 单位：KB/s
 TARGET_TRACKERS = [  # 目标Tracker白名单列表
-    'm-team.cc', 'audiences.me', 'cinefiles.info', 'ilovelemonhd.me'
+    'm-team.cc', 'audiences.me', 'cinefiles.info', 'qingwa', 'ilovelemonhd.me'
     # 添加更多需要排除的Tracker...
 ]
 
