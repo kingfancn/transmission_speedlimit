@@ -11,7 +11,7 @@ RPC_PASSWORD = 'admin'
 DOWNLOAD_LIMIT = 0  # 单位：KB/s
 UPLOAD_LIMIT = 10  # 单位：KB/s
 TARGET_TRACKERS = [  # 目标Tracker白名单列表
-    'm-team.cc', 'audiences.me', 'cinefiles.info', 'qingwa', 'ilovelemonhd.me'
+    'm-team.cc', 'audiences.me', 'cinefiles.info', 'qingwa', 'ilovelemonhd.me', 'hdhome.org'
     # 添加更多需要排除的Tracker...
 ]
 
