@@ -2,7 +2,7 @@ import transmission_rpc
 import sys
 
 # Transmission RPC 配置
-RPC_HOST = '192.168.1.132'
+RPC_HOST = '192.168.10.132'
 RPC_PORT = 9091
 RPC_USERNAME = 'admin'  # 如果没有认证，留空
 RPC_PASSWORD = 'admin'
