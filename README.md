@@ -28,8 +28,8 @@ pip install transmission-rpc
 
 | 操作类型       | 命令                     | 效果说明                  |
 |----------------|--------------------------|--------------------------|
-| 应用限速规则   | `python script.py 1`     | 对非白名单Tracker种子限速  |
-| 取消所有限速   | `python script.py 0`     | 完全移除所有限速设置       |
+| 应用限速规则   | `python transmission_speedlimit 1`     | 对非白名单Tracker种子限速  |
+| 取消所有限速   | `python transmission_speedlimit 0`     | 完全移除所有限速设置       |
 
 ### 详细使用场景
 
